@@ -14,7 +14,7 @@ end
 
 def take_a_number (katz_deli, string)
   katz_deli << "#{string}"
-  puts "Welcome, #{katz_deli.pop}. You are number #{index +1} in line."
+  puts "Welcome, #{katz_deli.pop}. You are number #{index} in line."
 end
 
 
