@@ -17,6 +17,11 @@ def take_a_number (katz_deli, string)
 end
 
 
-
-#  array.each do |name|
-#  puts "Welcome #{name} you are number #{number} in line."
+def now_serving (katz_deli)
+  if 
+    katz_deli != 0
+    puts "Currently serving #{katz_deli.unshift}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
+  end
